@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css navigation</title>
+	 <style type ="text/css">
+			{
+				margin: 0;
+				padding: 0;
+				font-family: arival,sans-serif;
+			}
+			header{
+				background: #11044a;
+				padding: 20px;
+			}
+			
+		    .nav-menu li a{
+		    	list-style-type: none;
+		    	display: inline-flex;
+		    	gap: 20px;	
+				}
+				.nav-menu li a{
+					color: white;
+					text-decoration: none;
+					padding: 10px;
+			}
+			.nav-menu li a{
+				color :greenyellow;
+				transition:  1s;
+
+			}
+			.active{
+				background-color: red;
+			}
+			.menu{
+				position:absolute;
+				background-color: white;
+				display: none;
+			}
+			.dropdown:hover .menu{
+				display: black;
+			}
+			
+		</style>
+</head>
+<body>
+	<header>
+		
+
+		<nav>
+			<ul class="nav-menu">
+				<li class="active"><a href="#">home</a></li>
+				<li><a href="#">about</a></li>
+				<li class="dropdown"><a href="#">service</a></li>
+				<ul class="menu">
+					<li><a href="">sevice1</a></li>
+					<li><a href="">sevice1</a></li>
+					<li><a href="">sevice1</a></li>
+				</ul>
+				<li><a href="#">contract</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<p>
+		Start at the head node: Set a pointer or reference variable to the head of the linked list.
+Iterate through the list: While the current node is not null, continue to the next node.
+Access or perform operations on the data in the current node.
+Move to the next node by updating the pointer or reference variable to point to the next node in the list.
+Repeat until the end of the list: Continue the traversal until the current node becomes null, indicating the end of the list.
+
+	</p>
+
+</body>
+</html>
